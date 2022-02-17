@@ -4,8 +4,17 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+
+    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+
+    <PublishSingleFile>true</PublishSingleFile>
     <Nullable>enable</Nullable>
-    <AssemblyName>dummy_‮txt</AssemblyName>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishReadyToRun>true</PublishReadyToRun>
+
+    <AssemblyName>dummy_txt</AssemblyName>
+    <!-- <AssemblyName>dummy_‮txt</AssemblyName> -->
   </PropertyGroup>
 
 </Project>
